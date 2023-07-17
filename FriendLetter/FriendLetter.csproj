@@ -1,0 +1,12 @@
+<!-- Project wide configurations and  all files and resources we want included in a project.
+For example, we're listing the software development kit (SDK) we're using, "Microsoft.NET.sdk.WEB", along with the target framework net6.0.
+
+Note that there's only one difference between the .csproj that we'll use for ASP.NET Core MVC applications and the one we use for console apps. Previously, we used the general .NET SDK as denoted by <Project Sdk="Microsoft.NET.Sdk">. Now, we're building web apps with ASP.NET Core MVC so we're using the ASP.NET Core SDK as denoted by <Project Sdk="Microsoft.NET.Sdk.Web">  -->
+
+ <Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
